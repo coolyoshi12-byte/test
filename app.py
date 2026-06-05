@@ -83,7 +83,7 @@ if st.button("✨ シフトを作成する", type="primary"):
         try:
             # Gemini APIの設定とモデルの呼び出し
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-3.1-flash-lite')
+            model = genai.GenerativeModel('gemini-3.5-flash')
             
             # プロンプト（AIへの指示文）の組み立て
             prompt = f"""
