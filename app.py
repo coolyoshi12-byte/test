@@ -37,7 +37,7 @@ if st.button("✨ シフトを作成する", type="primary"):
             # Gemini APIの設定
             genai.configure(api_key=api_key)
             # コストと速度のバランスが良い 1.5 Flash を使用
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-3.1-flash-lite')
             
             # AIへの指示（プロンプト）
             prompt = f"""
