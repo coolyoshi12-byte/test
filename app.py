@@ -18,7 +18,7 @@ api_key = st.sidebar.text_input("Gemini APIキー", type="password", help="Googl
 # ⚙️ スプレッドシートの事前設定エリア
 # ==========================================
 # 1. あなたのスプレッドシートURLをここに埋め込みます（xxxxxxの部分を書き換えてください）
-SHEET_URL = "https://docs.google.com/spreadsheets/d/xxxxxx/edit?usp=sharing"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1-2ExAUt0jaYIIuYSuLTfwfFCZk7M8YdJ8JfswcDKTB0/edit?usp=sharing"
 
 # 2. スプレッドシートの下のタブにある「シート名」を正確にリストアップします
 sheet_names = ["11月シフト希望", "12月シフト希望", "1月シフト希望"]
